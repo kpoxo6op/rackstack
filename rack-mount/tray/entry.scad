@@ -1,11 +1,12 @@
 use <./tray.scad>
 
 /*
-  Parametric rack-mount tray:
-  Dimensions can be adjusted using the variables below. You can also add mounting holes to fasten things that have
-  screw holes at the bottom.
+  Parametric rack-mount tray: Dimensions can be adjusted using the variables
+  below. You can also add mounting holes to fasten things that have screw holes
+  at the bottom.
 
-  !!! Please also make sure that the correct rack frame preset is set in rackFrame.scad !!!
+  !!! Please also make sure that the correct rack frame preset is set in
+  rackFrame.scad !!!
 */
 
 module traySystem (

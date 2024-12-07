@@ -8,7 +8,9 @@ use <../rackEars.scad>
   Please also make sure that the correct rack frame preset is set in rackFrame.scad.
 */
 
-module bottomScrewTray(u, trayWidth, trayDepth, trayThickness, mountPoints, mountPointElevation, mountPointType, frontThickness, sideThickness, frontLipHeight, backLipHeight, trayLeftPadding, sideSupport=true) {
+module bottomScrewTray(u, trayWidth, trayDepth, trayThickness, mountPoints,
+mountPointElevation, mountPointType, frontThickness, sideThickness,
+frontLipHeight, backLipHeight, trayLeftPadding, sideSupport=true) {
 
   lipThickness = sideThickness;
 
